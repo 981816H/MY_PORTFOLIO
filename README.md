@@ -3,7 +3,6 @@
 =======
 # 💼 Harsh Sisodia's Developer Portfolio
 
-![Profile Image](./harsh.jpg)
 
 Welcome to my personal developer portfolio! This is a showcase of my skills, projects, and certifications. It includes everything from web development and data science to DSA practice and e-commerce projects.
 
