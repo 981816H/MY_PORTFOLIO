@@ -1,0 +1,219 @@
+
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+}
+
+/* Sections */
+.section {
+    padding: 50px 10%;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.leftSection {
+    max-width: 500px;
+}
+
+.leftSection h1 span {
+    color: rgb(170, 107, 228);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 18px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #1e2167;
+}
+
+.rightSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-left: 30px;
+}
+
+.rightSection img {
+    width: 380px;
+    /* Adjust to your preferred size */
+    height: 380px;
+    /* Adjust to keep it square */
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Projects Section */
+.projects h2{
+
+    margin: 30px 30px;
+    padding: 5px;
+    text-decoration: underline;
+
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.project-item {
+    width: 45%;
+    background-color: rgb(18, 18, 62);
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: white;
+    /* Ensure link text is white */
+}
+
+.project-link:hover {
+    color: rgb(153, 153, 226);
+    /* Adjust color on hover */
+}
+
+/* Qualifications Section */
+.qualifications h2 {
+    margin: 30px 30px;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.qualifications ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.qualifications img {
+    width: 60px;
+    margin-right: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #0e0e1a;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    /* Centers the footer content horizontally */
+    flex-direction: column;
+    /* Stacks the <ul> elements vertically */
+    align-items: center;
+    /* Ensures each <ul> is centered horizontally */
+    width: 100%;
+    text-align: center;
+    /* Centers the text inside each <ul> */
+}
+
+.footer ul {
+    display: flex;
+    /* Displays <li> items horizontally */
+    padding: 0;
+    margin: 20px 0;
+    /* Adds vertical space between <ul> elements */
+
+}
+
+.footer li {
+    color: grey;
+    margin: 15px;
+    /* Adds horizontal spacing between <li> items */
+}
+
+.footer li a {
+    color: grey;
+    margin: 15px;
+    /* Adds horizontal spacing between <li> items */
+}
+
+.footer-rights {
+    text-align: center;
+    color: grey;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .firstSection {
+        flex-direction: column;
+    }
+
+    .project-item {
+        width: 100%;
+    }
+}
