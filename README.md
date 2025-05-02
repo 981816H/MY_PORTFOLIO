@@ -20,7 +20,7 @@ Welcome to my personal developer portfolio! This is a showcase of my skills, pro
 - **Frontend**: HTML, CSS, JavaScript
 - **Frameworks**: React.js (if used)
 - **Version Control**: Git & GitHub
-- **Tools**: VS Code, Figma, Postman
+- **Tools**: VS Code
 
 ---
 
