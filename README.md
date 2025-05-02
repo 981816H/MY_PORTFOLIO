@@ -11,7 +11,7 @@ Welcome to my personal developer portfolio! This is a showcase of my skills, pro
 ## 🔗 Deployed Link
 
 **[👉 View Portfolio Live](https://github.com/981816H/MY_PORTFOLIO)**  
-> *(replace with your actual deployed GitHub Pages or Netlify/Vercel link)*
+
 
 ---
 
